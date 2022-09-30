@@ -1,0 +1,1 @@
+!function(e){const t=JSON.parse(document.getElementById("config").innerHTML);t.retargetingPixels&&Object.entries(t.retargetingPixels).forEach((function(t){var _=t[0],n=t[1];switch(_){case"twitter":e.__TWITTER_PIXEL_ID__=n;break;case"pinterest":e.__PINTEREST_PIXEL_ID__=n;break;case"snapchat":e.__SNAPCHAT_PIXEL_ID__=n}}))}(window);
